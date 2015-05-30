@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://khmerasr.github.io/sitemap.xml
