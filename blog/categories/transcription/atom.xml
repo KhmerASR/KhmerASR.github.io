@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Khmer ASR]]></title>
-  <link href="http://khmerasr.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Transcription | Khmer ASR]]></title>
+  <link href="http://khmerasr.github.io/blog/categories/transcription/atom.xml" rel="self"/>
   <link href="http://khmerasr.github.io/"/>
   <updated>2015-05-30T09:18:59-04:00</updated>
   <id>http://khmerasr.github.io/</id>
@@ -219,7 +219,7 @@ to claim to be the norm of the method.</p>
 
 <p>In addition, <a href="https://translate.google.com">Google Translate</a> has also provided a decent starting ground for phonetic pronounciation for Khmer.</p>
 
-<p><img src="http://khmerasr.github.io/images/google_translate.png" alt="Google Translate" width="600px" /></p>
+<p><img src="/images/google_translate.png" alt="Google Translate" width="600px" /></p>
 
 ]]></content>
   </entry>
