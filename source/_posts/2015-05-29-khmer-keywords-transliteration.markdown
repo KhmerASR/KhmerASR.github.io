@@ -6,7 +6,7 @@ comments: true
 categories: transcription
 ---
 The Khmer keywords dataset collected by Institute of Technology of Cambodia (Khmer: វិទ្យាស្ថាន​បច្ចេកវិទ្យា​កម្ពុជា, (ITC)) 
-consists of 196 khmer words/phrases read by fifteen speakers(college students aged between 19 and 23) from six different provinces
+consists of 192 khmer words/phrases read by fifteen speakers(college students aged between 19 and 23) from six different provinces
 and below is the transcription of these words by mean of transliteration. 
 
 As there is no standard way to romanize Khmer words the transcription table here is also not intended 
@@ -98,18 +98,18 @@ to suggest the norm of the method.
 | 80  | ចា | Cha |
 | 81  | ព្រម | Proum |
 | 82  | ឣត់ព្រម | Ortproum |
-| 83  | ខែ​មករា | Khel Makara |
-| 84  | ខែ​កម្ភៈ | Khel Kompaak |
-| 85  | ខែ​មីនា | Khel Minea |
-| 86  | ខែ​មេសា | Khel Mesa |
-| 87  | ខែ​ឧសភា | Khel Oushphea |
-| 88  | ខែ​មិថុនា | Khel Mithona |
-| 89  | ខែ​កក្កដា | Khel Kakada |
-| 90  | ខែ​សីហា | Khel Siha |
-| 91  | ខែ​កញ្ញា | Khel Kanha |
-| 92  | ខែ​តុលា | Khel Tola |
-| 93  | ខែ​វិច្ឆកា | Khel Vichka |
-| 94  | ខែ​ធ្នូ | Khel Thnu |
+| 83  | ខែ​មករា | Khe Makara |
+| 84  | ខែ​កម្ភៈ | Khe Kompaak |
+| 85  | ខែ​មីនា | Khe Minea |
+| 86  | ខែ​មេសា | Khe Mesa |
+| 87  | ខែ​ឧសភា | Khe Oushphea |
+| 88  | ខែ​មិថុនា | Khe Mithona |
+| 89  | ខែ​កក្កដា | Khe Kakada |
+| 90  | ខែ​សីហា | Khe Siha |
+| 91  | ខែ​កញ្ញា | Khe Kanha |
+| 92  | ខែ​តុលា | Khe Tola |
+| 93  | ខែ​វិច្ឆកា | Khe Vichka |
+| 94  | ខែ​ធ្នូ | Khe Thnu |
 | 95  | ថ្ងៃ​ចន្ទ័ | Thngai Chan |
 | 96  | ថ្ងៃ​ឣង្គារ | Thngai Aongkear |
 | 97  | ថ្ងៃ​ពុធ | Thngai Pouth |
@@ -125,6 +125,89 @@ to suggest the norm of the method.
 | 107 | ទៅមុខ | Tovmukh |
 | 108 | ម្តងទៀត | Mdorngteat |
 | 109 | ផ្តាំសារ | Phdamsar |
+| 110 | ទំពរ័ដើម | Tompordaem |
+| 111 | ទំពរ័មុន | Tompor Mun |
+| 112 | ទំពរ័បន្ទាប់ | Tompor Bantorb |
+| 113 | ព័ត៍មាន | Pordmean |
+| 114 | ចុះ​ឈ្មោះ | Choh Chhmoh |
+| 115 | លុប​ឈ្មោះ | Loub Chhmoh |
+| 116 | ហៅ | Haw |
+| 117 | កុំ​ហៅ | Kom Haw |
+| 118 | បញ្ចី | Bnhchi |
+| 119 | ការី​ទូរសព្ទ័ | Kari Toursapt |
+| 120 | ប្រុស | Bros |
+| 121 | បុរស | Boros |
+| 122 | នារី | Neari |
+| 123 | ស្ត្រី | Strei |
+| 124 | ថ្ងៃ | Thngai |
+| 125 | ឣាទិត្យ | Atith |
+| 126 | សប្ដាស៍ | Sabda |
+| 127 | ខែ | Khe |
+| 128 | ឆ្នាំ | Chhnom |
+| 129 | ថ្ងៃ​នេះ | Thngai nih |
+| 130 | ម្សិលមិុញ | Mselminh |
+| 131 | ម្សិលម្ងៃ | Mselmngai |
+| 132 | ម្សិលម្ងៃ​មួយ | Mselmngai Muey |
+| 133 | ថ្ងៃ​ស្ឣែក | Thngai Saaek |
+| 134 | ខាន​ស្ឣែក | Khan Saaek |
+| 135 | ប្រឹក្សា | Breoksa |
+| 136 | រលាក​ថ្លើម​ឣា | Roleak Thlaem A |
+| 137 | រលាក​ថ្លើម​បេ | Roleak Thlaem Be |
+| 138 | រលាក​ថ្លើម​សេ | Roleak Thlaem Se |
+| 139 | តេតតាណុស | Tettanos |
+| 140 | គ្រុន​ពោះវៀន | Khrun Poushvien |
+| 141 | ឣាសន្នរោគ | Arsannrouk |
+| 142 | រលាក​ស្រោមខួរ | Roleak Sraomkhuer |
+| 143 | ឆ្កែឆ្កួត | Chhkechhkout |
+| 144 | គ្រុនចាញ់ | Khrunchanh |
+| 145 | គ្រុនឈាម | Khrunchheam |
+| 146 | ផ្ដាសសាយ | Phdassai |
+| 147 | ផ្ដាសសាយ​បក្សី | Phdassai Baksey |
+| 148 | បរាសិត | Boraset |
+| 149 | គ្រុនក្ដៅ | Khrunkdaw |
+| 150 | ប្រកាំង | Brokhang |
+| 151 | ខ្សោយ​បេះដូង | Khsaoy Behdoung |
+| 152 | ភ្នែក​ក្រហម | Phnek Krahorm |
+| 153 | រាគ | Reak |
+| 154 | រាគរូស | Reakroos |
+| 155 | ក្រិន​ថ្លើម | Kren Thlaem |
+| 156 | គ្រួស​តំរងនោម | Khros Tamrongnoum |
+| 157 | ទាចទឹក | Taechteok |
+| 158 | មហារីក​ដោះ | Maharik Dohs |
+| 159 | មហារីក​តំរងនោម | Maharik Tamrongnoum |
+| 160 | មហារីក​ស្បូន | Maharik Sboun |
+| 161 | មហារីក​សួត | Maharik Suot |
+| 162 | មហារីក | Maharik |
+| 163 | ទឹកនោមផ្ឣែម | Teoknoumphaaem |
+| 164 | ទឹកនោមប្រៃ | Teoknoumbrai |
+| 165 | លើសឈាម | Leuschheam |
+| 166 | ឣេដ៍ | Ead |
+| 167 | សុីដា | Sida | 
+| 168 | ស្ឣូច | Saouch |
+| 169 | កញ្ជ្រិល | Kanhchril |
+| 170 | ស្វាយ | Svay |
+| 171 | ប្រមេះ | Bromeh |
+| 172 | រលាក​ទងសួត | Roleak Torngsuot |
+| 173 | របេង | Robeng |
+| 174 | ជ្រូក | Chhruk |
+| 175 | មាន់ | Moeon |
+| 176 | ទា | Tiea |
+| 177 | សេះ | Seh |
+| 178 | ត្រី | Trei |
+| 179 | ពោត | Poeut |
+| 180 | ស្រូវ | Srouv |
+| 181 | ឣង្ករ | Arngkr |
+| 182 | ដំឡូងមី | Domloungmi |
+| 183 | ដំឡូងផ្ឣែម | Domloungphaem |
+| 184 | បន្លែ | Banlae |
+| 185 | ផ្លែឈើ | Phlaechheu |
+| 186 | សណ្ដែកដី | Sandaekdei |
+| 187 | សណ្ដែកសៀង | Sandaekseang |
+| 188 | ល្ង | lngr |
+| 189 | ឣំពៅ | Ampov |
+| 190 | ក្រចៅ | Khrochaw |
+| 191 | ថ្នាំជក់ | Thnumchuek |
+| 192 | កៅស៊ូ | Kawsuu |
 
 In addition, [Google Translate][google_translate] has also provided a decent starting ground for phonetic pronounciation for Khmer.
 
