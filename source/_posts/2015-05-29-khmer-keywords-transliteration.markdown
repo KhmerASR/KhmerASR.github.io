@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Khmer keywords transliteration"
+title: "Khmer keywords transcription"
 date: 2015-05-29 19:03:04 -0400
 comments: true
 categories: transcription
