@@ -13,7 +13,7 @@ If you talk to him in his language, that goes to his heart.
 
 Despite the fact that Automatic Speech Recognition (ASR) is no longer a science fiction movie scene yet not every language
 has gotten the same blessing and retained equal attention from the researchers in the field to make it a reality.
-One among those languages is Khmer, the official language of Cambodia (where I grow up and come from).
+One among those languages is Khmer, the official language of Cambodia (where I grew up and come from).
 
 Spoken by about 16 millions people worldwide, Khmer is being uttered throught out Cambodia from all walks of life 
 in entertainment, business communication, k-12 and higher education lecturing, media and public hearing as Cambodian people
