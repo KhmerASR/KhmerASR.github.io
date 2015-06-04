@@ -30,8 +30,8 @@ to suggest the norm of the method.
 | 13  | ខេត្ត​កំពង់ឆ្នាំង | Khett Kompongchhnang |
 | 14  | កំពង់ស្ពឺ | Kompongspeu |
 | 15  | ខេត្ត​កំពង់ស្ពឺ | Khett Kompongspeu |
-| 16  | កំពត់ | Kompot |
-| 17  | ខេត្ត​កំពត់ | Khett Kompot |
+| 16  | កំពត | Kompot |
+| 17  | ខេត្ត​កំពត | Khett Kompot |
 | 18  | កោះកុង | Kohkong |
 | 19  | ខេត្ត​កោះកុង | Khett Kohkong |
 | 20  | តាកែវ | Takeo |
@@ -78,7 +78,7 @@ to suggest the norm of the method.
 | 61  | ៥ | Pram |
 | 62  | ៦ | Prammuey |
 | 63  | ៧(ប្រាំពីរ) | Prampee |
-| 64  | ៧(ប្រាំពីល) | Prampel |
+| 64  | ៧(ប្រាំពិល) | Prampel |
 | 65  | ៨ | Prambey |
 | 66  | ៩ | Prambuen |
 | 67  | ១០ | Dob |
@@ -89,7 +89,7 @@ to suggest the norm of the method.
 | 72  | ១៥ | Dobpram |
 | 73  | ១៦ | Dobprammuey |
 | 74  | ១៧(ដប់​ប្រាំពីរ) | Dobprampee |
-| 74  | ១៧(ដប​់ប្រាំពីល) | Dobprampel |
+| 74  | ១៧(ដប​់ប្រាំពិល) | Dobprampel |
 | 75  | ១៨ | Dobprambey |
 | 76  | ១៩ | Dobprambuen |
 | 77  | ២០ | Mphey |
