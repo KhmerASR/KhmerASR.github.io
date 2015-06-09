@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Transcription | Khmer ASR]]></title>
   <link href="http://khmerasr.github.io/blog/categories/transcription/atom.xml" rel="self"/>
   <link href="http://khmerasr.github.io/"/>
-  <updated>2015-06-03T20:44:24-04:00</updated>
+  <updated>2015-06-09T17:45:50-04:00</updated>
   <id>http://khmerasr.github.io/</id>
   <author>
     <name><![CDATA[Chanmann Lim]]></name>
@@ -540,102 +540,463 @@
       <td>ថ្ងៃ​ឣាទិត្យ</td>
       <td>thŋaj.ʔa:.tit</td>
     </tr>
+    <tr>
+      <td>102</td>
+      <td>បញ្ឈប់</td>
+      <td>ɓɑːɲ.c<sup>h</sup>ɔːɓ</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>ឈប់</td>
+      <td>c<sup>h</sup>ɔːɓ</td>
+    </tr>
+    <tr>
+      <td>104</td>
+      <td>បញ្ចប់</td>
+      <td>ɓɑːɲ.cɑːɓ</td>
+    </tr>
+    <tr>
+      <td>105</td>
+      <td>បន្ត</td>
+      <td>ɓɑːn.tɑː</td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>ថយក្រោយ</td>
+      <td>t<sup>h</sup>ɑːj.krɑːoj</td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>ទៅមុខ</td>
+      <td>təw.muk</td>
+    </tr>
+    <tr>
+      <td>108</td>
+      <td>ម្តងទៀត</td>
+      <td>mɗɑːŋ.tiːɜt</td>
+    </tr>
+    <tr>
+      <td>109</td>
+      <td>ផ្តាំសារ</td>
+      <td>pɗam.saː</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>ទំពរ័ដើម</td>
+      <td>tum.pɑː.ɗaːəm</td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>ទំពរ័មុន</td>
+      <td>tum.pɑː.mun</td>
+    </tr>
+    <tr>
+      <td>112</td>
+      <td>ទំពរ័បន្ទាប់</td>
+      <td>tum.pɑː.ɓɑn.tɑɓ</td>
+    </tr>
+    <tr>
+      <td>113</td>
+      <td>ព័ត៍មាន</td>
+      <td>pɑːt.miːən</td>
+    </tr>
+    <tr>
+      <td>114</td>
+      <td>ចុះ​ឈ្មោះ</td>
+      <td>coh.chmuəh</td>
+    </tr>
+    <tr>
+      <td>115</td>
+      <td>លុប​ឈ្មោះ</td>
+      <td>luɓ.chmuəh</td>
+    </tr>
+    <tr>
+      <td>116</td>
+      <td>ហៅ</td>
+      <td>haw</td>
+    </tr>
+    <tr>
+      <td>117</td>
+      <td>កុំ​ហៅ</td>
+      <td>kom.haw</td>
+    </tr>
+    <tr>
+      <td>118</td>
+      <td>បញ្ចី</td>
+      <td>ɓɑɲ.ciː</td>
+    </tr>
+    <tr>
+      <td>119</td>
+      <td>ការី​ទូរសព្ទ័</td>
+      <td>ka:.rej.tuːr.saːp</td>
+    </tr>
+    <tr>
+      <td>120</td>
+      <td>ប្រុស</td>
+      <td>ɓros</td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td>បុរស</td>
+      <td>ɓo.rɑːs</td>
+    </tr>
+    <tr>
+      <td>122</td>
+      <td>នារី</td>
+      <td>niə.riː</td>
+    </tr>
+    <tr>
+      <td>123</td>
+      <td>ស្ត្រី</td>
+      <td>strej</td>
+    </tr>
+    <tr>
+      <td>124</td>
+      <td>ថ្ងៃ</td>
+      <td>t<sup>h</sup>ŋaj</td>
+    </tr>
+    <tr>
+      <td>125</td>
+      <td>ឣាទិត្យ</td>
+      <td>ʔaː.tit</td>
+    </tr>
+    <tr>
+      <td>126</td>
+      <td>សប្ដាស៍</td>
+      <td>sɑːɓ.ɗa:</td>
+    </tr>
+    <tr>
+      <td>127</td>
+      <td>ខែ</td>
+      <td>kɛː</td>
+    </tr>
+    <tr>
+      <td>128</td>
+      <td>ឆ្នាំ</td>
+      <td>c<sup>h</sup>nam</td>
+    </tr>
+    <tr>
+      <td>129</td>
+      <td>ថ្ងៃ​នេះ</td>
+      <td>t<sup>h</sup>ŋaj.nih</td>
+    </tr>
+    <tr>
+      <td>130</td>
+      <td>ម្សិលមិុញ</td>
+      <td>msel.miɲ</td>
+    </tr>
+    <tr>
+      <td>131</td>
+      <td>ម្សិលម្ងៃ</td>
+      <td>msel.mŋaj</td>
+    </tr>
+    <tr>
+      <td>132</td>
+      <td>ម្សិលម្ងៃ​មួយ</td>
+      <td>msel.mŋaj.muːəj</td>
+    </tr>
+    <tr>
+      <td>133</td>
+      <td>ថ្ងៃ​ស្ឣែក</td>
+      <td>t<sup>h</sup>ŋaj.sʔɑːɛk</td>
+    </tr>
+    <tr>
+      <td>134</td>
+      <td>ខាន​ស្ឣែក</td>
+      <td>kaːn.sʔɑːɛk</td>
+    </tr>
+    <tr>
+      <td>135</td>
+      <td>ប្រឹក្សា</td>
+      <td>ɓrək.saː</td>
+    </tr>
+    <tr>
+      <td>136</td>
+      <td>រលាក​ថ្លើម​ឣា</td>
+      <td>rɔː.liːək.t<sup>h</sup>laːəm.ʔaː</td>
+    </tr>
+    <tr>
+      <td>137</td>
+      <td>រលាក​ថ្លើម​បេ</td>
+      <td>rɔː.liːək.t<sup>h</sup>laːəm.ɓeː</td>
+    </tr>
+    <tr>
+      <td>138</td>
+      <td>រលាក​ថ្លើម​សេ</td>
+      <td>rɔː.liːək.t<sup>h</sup>laːəm.seː</td>
+    </tr>
+    <tr>
+      <td>139</td>
+      <td>តេតតាណុស</td>
+      <td>teːt.taː.nus</td>
+    </tr>
+    <tr>
+      <td>140</td>
+      <td>គ្រុន​ពោះវៀន</td>
+      <td>krun.puəh.wiːɜn</td>
+    </tr>
+    <tr>
+      <td>141</td>
+      <td>ឣាសន្នរោគ</td>
+      <td>ʔaː.sɑːn.roːk</td>
+    </tr>
+    <tr>
+      <td>142</td>
+      <td>រលាក​ស្រោមខួរ</td>
+      <td>rɔː.liːək.sraːom.kuːə</td>
+    </tr>
+    <tr>
+      <td>143</td>
+      <td>ឆ្កែឆ្កួត</td>
+      <td>c<sup>h</sup>kaːɛ.c<sup>h</sup>kuːət</td>
+    </tr>
+    <tr>
+      <td>144</td>
+      <td>គ្រុនចាញ់</td>
+      <td>krun.caːɲ</td>
+    </tr>
+    <tr>
+      <td>145</td>
+      <td>គ្រុនឈាម</td>
+      <td>krun.chiːəm</td>
+    </tr>
+    <tr>
+      <td>146</td>
+      <td>ផ្ដាសសាយ</td>
+      <td>pɗaːs.saːj</td>
+    </tr>
+    <tr>
+      <td>147</td>
+      <td>ផ្ដាសសាយ​បក្សី</td>
+      <td>pɗaːs.saːj.ɓaːk.siː</td>
+    </tr>
+    <tr>
+      <td>148</td>
+      <td>បរាសិត</td>
+      <td>ɓʌ.raː.set</td>
+    </tr>
+    <tr>
+      <td>149</td>
+      <td>គ្រុនក្ដៅ</td>
+      <td>krun.kɗaw</td>
+    </tr>
+    <tr>
+      <td>150</td>
+      <td>ប្រកាំង</td>
+      <td>ɓrɑː.kamŋ</td>
+    </tr>
+    <tr>
+      <td>151</td>
+      <td>ខ្សោយ​បេះដូង</td>
+      <td>ksawj.ɓeh.ɗɔːoŋ</td>
+    </tr>
+    <tr>
+      <td>152</td>
+      <td>ភ្នែក​ក្រហម</td>
+      <td>phnɛːk.krɑː.kɑːm</td>
+    </tr>
+    <tr>
+      <td>153</td>
+      <td>រាគ</td>
+      <td>riːək</td>
+    </tr>
+    <tr>
+      <td>154</td>
+      <td>រាគរូស</td>
+      <td>riːək.ruːs</td>
+    </tr>
+    <tr>
+      <td>155</td>
+      <td>ក្រិន​ថ្លើម</td>
+      <td>kren.thlaːəm</td>
+    </tr>
+    <tr>
+      <td>156</td>
+      <td>គ្រួស​តំរងនោម</td>
+      <td>kruːəs.tɑm.rɔːŋ.noːm</td>
+    </tr>
+    <tr>
+      <td>157</td>
+      <td>ទាចទឹក</td>
+      <td>tiːəc.tɨk</td>
+    </tr>
+    <tr>
+      <td>158</td>
+      <td>មហារីក​ដោះ</td>
+      <td>mɔː.haː.riːk.ɗɑh</td>
+    </tr>
+    <tr>
+      <td>159</td>
+      <td>មហារីក​តំរងនោម</td>
+      <td>mɔː.haː.riːk.tɑm.rɑːŋ.noːm</td>
+    </tr>
+    <tr>
+      <td>160</td>
+      <td>មហារីក​ស្បូន</td>
+      <td>mɔː.haː.riːk.sɓɔːon</td>
+    </tr>
+    <tr>
+      <td>161</td>
+      <td>មហារីក​សួត</td>
+      <td>mɔː.haː.riːk.suːət</td>
+    </tr>
+    <tr>
+      <td>162</td>
+      <td>មហារីក</td>
+      <td>mɔː.haː.riːk</td>
+    </tr>
+    <tr>
+      <td>163</td>
+      <td>ទឹកនោមផ្ឣែម</td>
+      <td>tɨk.noːm.p<sup>h</sup>ʔaːɛm</td>
+    </tr>
+    <tr>
+      <td>164</td>
+      <td>ទឹកនោមប្រៃ</td>
+      <td>tɨk.noːm.ɓraj</td>
+    </tr>
+    <tr>
+      <td>165</td>
+      <td>លើសឈាម</td>
+      <td>ləːs.c<sup>h</sup>iːəm</td>
+    </tr>
+    <tr>
+      <td>166</td>
+      <td>ឣេដ៍</td>
+      <td>ʔeːd</td>
+    </tr>
+    <tr>
+      <td>167</td>
+      <td>សុីដា</td>
+      <td>siː.ɗa:</td>
+    </tr>
+    <tr>
+      <td>168</td>
+      <td>ស្ឣូច</td>
+      <td>sʔɑːoc</td>
+    </tr>
+    <tr>
+      <td>169</td>
+      <td>កញ្ជ្រិល</td>
+      <td>kɑɲ.cril</td>
+    </tr>
+    <tr>
+      <td>170</td>
+      <td>ស្វាយ</td>
+      <td>swaːj</td>
+    </tr>
+    <tr>
+      <td>171</td>
+      <td>ប្រមេះ</td>
+      <td>ɓrɑː.meh</td>
+    </tr>
+    <tr>
+      <td>172</td>
+      <td>រលាក​ទងសួត</td>
+      <td>rɔː.liːək.tɔːŋ.suːət</td>
+    </tr>
+    <tr>
+      <td>173</td>
+      <td>របេង</td>
+      <td>rɔː.ɓeːŋ</td>
+    </tr>
+    <tr>
+      <td>174</td>
+      <td>ជ្រូក</td>
+      <td>cruːk</td>
+    </tr>
+    <tr>
+      <td>175</td>
+      <td>មាន់</td>
+      <td>mʔɑːn</td>
+    </tr>
+    <tr>
+      <td>176</td>
+      <td>ទា</td>
+      <td>tiːə</td>
+    </tr>
+    <tr>
+      <td>177</td>
+      <td>សេះ</td>
+      <td>seh</td>
+    </tr>
+    <tr>
+      <td>178</td>
+      <td>ត្រី</td>
+      <td>trej</td>
+    </tr>
+    <tr>
+      <td>179</td>
+      <td>ពោត</td>
+      <td>poːt</td>
+    </tr>
+    <tr>
+      <td>180</td>
+      <td>ស្រូវ</td>
+      <td>srɔːow</td>
+    </tr>
+    <tr>
+      <td>181</td>
+      <td>ឣង្ករ</td>
+      <td>ʔŋ.kɑː</td>
+    </tr>
+    <tr>
+      <td>182</td>
+      <td>ដំឡូងមី</td>
+      <td>ɗɑm.lɔːoŋ.miː</td>
+    </tr>
+    <tr>
+      <td>183</td>
+      <td>ដំឡូងផ្ឣែម</td>
+      <td>ɗɑm.lɔːoŋ.pʔaːɛm</td>
+    </tr>
+    <tr>
+      <td>184</td>
+      <td>បន្លែ</td>
+      <td>ɓɑn.lɛː</td>
+    </tr>
+    <tr>
+      <td>185</td>
+      <td>ផ្លែឈើ</td>
+      <td>plaːɛ.c<sup>h</sup>əː</td>
+    </tr>
+    <tr>
+      <td>186</td>
+      <td>សណ្ដែកដី</td>
+      <td>sɑn.ɗaːɛk.ɗej</td>
+    </tr>
+    <tr>
+      <td>187</td>
+      <td>សណ្ដែកសៀង</td>
+      <td>sɑn.ɗaːɛk.siːɛŋ</td>
+    </tr>
+    <tr>
+      <td>188</td>
+      <td>ល្ង</td>
+      <td>lŋɔː</td>
+    </tr>
+    <tr>
+      <td>189</td>
+      <td>ឣំពៅ</td>
+      <td>ʔɑm.pəw</td>
+    </tr>
+    <tr>
+      <td>190</td>
+      <td>ក្រចៅ</td>
+      <td>krɑː.caw</td>
+    </tr>
+    <tr>
+      <td>191</td>
+      <td>ថ្នាំជក់</td>
+      <td>t<sup>h</sup>nam.c<sup>h</sup>uːək</td>
+    </tr>
+    <tr>
+      <td>192</td>
+      <td>កៅស៊ូ</td>
+      <td>kaw.suː</td>
+    </tr>
   </tbody>
 </table>
-
-<!---
-| 102 | បញ្ឈប់ | Banhchhob |
-| 103 | ឈប់ | Chhob |
-| 104 | បញ្ចប់ | Banhchob |
-| 105 | បន្ត | Bantor |
-| 106 | ថយក្រោយ | Thoykraoy |
-| 107 | ទៅមុខ | Tovmukh |
-| 108 | ម្តងទៀត | Mdorngteat |
-| 109 | ផ្តាំសារ | Phdamsar |
-| 110 | ទំពរ័ដើម | Tompordaem |
-| 111 | ទំពរ័មុន | Tompor Mun |
-| 112 | ទំពរ័បន្ទាប់ | Tompor Bantorb |
-| 113 | ព័ត៍មាន | Pordmean |
-| 114 | ចុះ​ឈ្មោះ | Choh Chhmoh |
-| 115 | លុប​ឈ្មោះ | Loub Chhmoh |
-| 116 | ហៅ | Haw |
-| 117 | កុំ​ហៅ | Kom Haw |
-| 118 | បញ្ចី | Bnhchi |
-| 119 | ការី​ទូរសព្ទ័ | Kari Toursapt |
-| 120 | ប្រុស | Bros |
-| 121 | បុរស | Boros |
-| 122 | នារី | Neari |
-| 123 | ស្ត្រី | Strei |
-| 124 | ថ្ងៃ | Thngai |
-| 125 | ឣាទិត្យ | Atith |
-| 126 | សប្ដាស៍ | Sabda |
-| 127 | ខែ | Khe |
-| 128 | ឆ្នាំ | Chhnom |
-| 129 | ថ្ងៃ​នេះ | Thngai nih |
-| 130 | ម្សិលមិុញ | Mselminh |
-| 131 | ម្សិលម្ងៃ | Mselmngai |
-| 132 | ម្សិលម្ងៃ​មួយ | Mselmngai Muey |
-| 133 | ថ្ងៃ​ស្ឣែក | Thngai Saaek |
-| 134 | ខាន​ស្ឣែក | Khan Saaek |
-| 135 | ប្រឹក្សា | Breoksa |
-| 136 | រលាក​ថ្លើម​ឣា | Roleak Thlaem A |
-| 137 | រលាក​ថ្លើម​បេ | Roleak Thlaem Be |
-| 138 | រលាក​ថ្លើម​សេ | Roleak Thlaem Se |
-| 139 | តេតតាណុស | Tettanos |
-| 140 | គ្រុន​ពោះវៀន | Khrun Poushvien |
-| 141 | ឣាសន្នរោគ | Arsannrouk |
-| 142 | រលាក​ស្រោមខួរ | Roleak Sraomkhuer |
-| 143 | ឆ្កែឆ្កួត | Chhkechhkout |
-| 144 | គ្រុនចាញ់ | Khrunchanh |
-| 145 | គ្រុនឈាម | Khrunchheam |
-| 146 | ផ្ដាសសាយ | Phdassai |
-| 147 | ផ្ដាសសាយ​បក្សី | Phdassai Baksey |
-| 148 | បរាសិត | Boraset |
-| 149 | គ្រុនក្ដៅ | Khrunkdaw |
-| 150 | ប្រកាំង | Brokhang |
-| 151 | ខ្សោយ​បេះដូង | Khsaoy Behdoung |
-| 152 | ភ្នែក​ក្រហម | Phnek Krahorm |
-| 153 | រាគ | Reak |
-| 154 | រាគរូស | Reakroos |
-| 155 | ក្រិន​ថ្លើម | Kren Thlaem |
-| 156 | គ្រួស​តំរងនោម | Khros Tamrongnoum |
-| 157 | ទាចទឹក | Taechteok |
-| 158 | មហារីក​ដោះ | Maharik Dohs |
-| 159 | មហារីក​តំរងនោម | Maharik Tamrongnoum |
-| 160 | មហារីក​ស្បូន | Maharik Sboun |
-| 161 | មហារីក​សួត | Maharik Suot |
-| 162 | មហារីក | Maharik |
-| 163 | ទឹកនោមផ្ឣែម | Teoknoumphaaem |
-| 164 | ទឹកនោមប្រៃ | Teoknoumbrai |
-| 165 | លើសឈាម | Leuschheam |
-| 166 | ឣេដ៍ | Ead |
-| 167 | សុីដា | Sida | 
-| 168 | ស្ឣូច | Saouch |
-| 169 | កញ្ជ្រិល | Kanhchril |
-| 170 | ស្វាយ | Svay |
-| 171 | ប្រមេះ | Bromeh |
-| 172 | រលាក​ទងសួត | Roleak Torngsuot |
-| 173 | របេង | Robeng |
-| 174 | ជ្រូក | Chhruk |
-| 175 | មាន់ | Moeon |
-| 176 | ទា | Tiea |
-| 177 | សេះ | Seh |
-| 178 | ត្រី | Trei |
-| 179 | ពោត | Poeut |
-| 180 | ស្រូវ | Srouv |
-| 181 | ឣង្ករ | Arngkr |
-| 182 | ដំឡូងមី | Domloungmi |
-| 183 | ដំឡូងផ្ឣែម | Domloungphaem |
-| 184 | បន្លែ | Banlae |
-| 185 | ផ្លែឈើ | Phlaechheu |
-| 186 | សណ្ដែកដី | Sandaekdei |
-| 187 | សណ្ដែកសៀង | Sandaekseang |
-| 188 | ល្ង | lngr |
-| 189 | ឣំពៅ | Ampov |
-| 190 | ក្រចៅ | Khrochaw |
-| 191 | ថ្នាំជក់ | Thnumchuek |
-| 192 | កៅស៊ូ | Kawsuu |
---->
 ]]></content>
   </entry>
   
