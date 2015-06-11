@@ -203,3 +203,8 @@ Unlike [previous post](/blog/2015/05/29/khmer-keywords-transliteration) which co
 | 190 | ក្រចៅ | krɑː.caw |
 | 191 | ថ្នាំជក់ | t<sup>h</sup>nam.c<sup>h</sup>uːək |
 | 192 | កៅស៊ូ | kaw.suː |
+
+### Phonemic inventory references
+1. [Omniglot - Khmer](http://www.omniglot.com/writing/khmer.htm)
+2. Annanda th. Rath, Long S. Meng, Heng. Samedi, Long Nipaul, Sok K. heng. Complexity of Letter to Sound Conversion (LTS) in Khmer Language: under the context of Khmer Text-to-Speech (TTS). NLP lab, Department of Computer and Communication Engineering, Institute of Technology of Cambodia, Cambodia, PAN10 and IDRC Canada
+3. [Research on Phonetic and Phonological Analysis of Khmer](http://www.panl10n.net/english/Outputs%20Phase%202/CCs/Cambodia/ITC/Papers/2007/0701/phonetic-and-phonological-analysis.pdf)
