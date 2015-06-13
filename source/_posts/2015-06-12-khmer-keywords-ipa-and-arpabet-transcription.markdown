@@ -5,7 +5,7 @@ date: 2015-06-12 18:42:07 -0400
 comments: true
 categories: transcription
 ---
-Unlike [previous post](/blog/2015/05/29/khmer-keywords-transliteration) which considers only English transliteration as the transcription method for Khmer keywords, here I will use the [**International Phonetic Alphabet (IPA)**](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) and [Arpabet](https://en.wikipedia.org/wiki/Arpabet) notation for transcribing the same set of Khmer keywords from the last article.
+Unlike [previous post]({{page.previous.url}}) which considers only English transliteration as the transcription method for Khmer keywords, here I will use the [**International Phonetic Alphabet (IPA)**](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) and [Arpabet](https://en.wikipedia.org/wiki/Arpabet) notation for transcribing the same set of Khmer keywords from the last article.
 <!-- more -->
 
 | No. | Word             | IPA                 | Arpabet               |
@@ -204,9 +204,4 @@ Unlike [previous post](/blog/2015/05/29/khmer-keywords-transliteration) which co
 | 191 | ថ្នាំជក់ | t<sup>h</sup>nam.c<sup>h</sup>uːək | TH N AM C UE K |
 | 192 | កៅស៊ូ | kaw.suː | K AOW S UW |
 
-### Phonemic inventory references
-1. [Omniglot - Khmer](http://www.omniglot.com/writing/khmer.htm)
-2. Annanda th. Rath, Long S. Meng, Heng. Samedi, Long Nipaul, Sok K. heng. "Complexity of Letter to Sound Conversion (LTS) in Khmer Language: under the context of Khmer Text-to-Speech (TTS)". NLP lab, Department of Computer and Communication Engineering, Institute of Technology of Cambodia, Cambodia, PAN10 and IDRC Canada
-3. [Research on Phonetic and Phonological Analysis of Khmer](http://www.panl10n.net/english/Outputs%20Phase%202/CCs/Cambodia/ITC/Papers/2007/0701/phonetic-and-phonological-analysis.pdf)
-4. [Center for Southeast Asia Studies (Khmer) - Northen Illinois University](http://www.seasite.niu.edu/khmer/)
-5. S. Seng, S. Sam, V.-B. Le, B. Bigi, and L. Besacier, "WHICH UNITS FOR ACOUSTIC AND LANGUAGE MODELING FOR KHMER AUTOMATIC SPEECH RECOGNITION?" presented at the International Workshop on Spoken Languages Technologies for Under-Ressourced Languages, 2008.
+The transcription here is based on the [Phonemic inventory for Khmer language]({{page.next.url}}) being defined in this site.
