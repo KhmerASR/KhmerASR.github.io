@@ -9,12 +9,12 @@ At high-level perception, automatic speech recognition is merely a computer appl
 sound waves as input and produce the corresponding words, phrases, or sentences being spoken as text and indeed
 it is a transcription task which transforms verbal articulation into the written ones. Besides, 
 the rudimentary stage in the speech processing task is to deal with acoustic properties of the language
-to come up with the criterion for pronouncation so that transcription job can be made possible.
+to come up with the criterion for pronuncation so that transcription job can be made possible.
 
 Below section roughly described the acoustic features of Khmer language and provided the transcription 
 in IPA and Arpabet format to represent the Phonemes of each character.
 
-### Khmer alpabet and pronouncation
+### Khmer alpabet and pronuncation
 In Cambodian script (called Khmer letters)​ there are 33 consonants, 24 dependent vowels, 
 12 independent vowels and several diacritic symbols. <!-- more -->Most consonants have reduced 
 or modified forms, called sub-consonants, when they occur as the second member of a consonant cluster. 
@@ -52,7 +52,7 @@ change a consonant sound to ɑ-series and ɔ-series respectively. [2]
 | អ |  ្ឣ | ឣ៊ |   | ʔ |   |
 
 ### Dependent Vowels
-The pronounciation of a vowel, including the inherent vowel, is determinded by the series of 
+The pronunciation of a vowel, including the inherent vowel, is determinded by the series of 
 the initial consonant or consonant cluster that it follows. [2]
 
 | Letter | ɑ-series | Arpabet | ɔ-series | Arpabet |
