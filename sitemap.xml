@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://khmerasr.github.io/blog/2015/06/13/khmer-phonemic-inventory/</loc>
+    <lastmod>2015-06-13T18:15:57-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://khmerasr.github.io/blog/2015/06/12/khmer-keywords-ipa-and-arpabet-transcription/</loc>
     <lastmod>2015-06-12T18:42:07-04:00</lastmod>
   </url>
@@ -22,5 +26,11 @@
   </url>
   <url>
     <loc>http://khmerasr.github.io/blog/categories/transcription/</loc>
+  </url>
+  <url>
+    <loc>http://khmerasr.github.io/blog/categories/acoustic/</loc>
+  </url>
+  <url>
+    <loc>http://khmerasr.github.io/blog/categories/phoneme/</loc>
   </url>
 </urlset>

@@ -1,0 +1,751 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Khmer Phonemic Inventory - Khmer ASR</title>
+  <meta name="author" content="Chanmann Lim">
+
+  
+  <meta name="description" content="At high-level perception, automatic speech recognition is merely a computer application that could take sound waves as input and produce the &hellip;">
+  <meta name="keywords" content="Khmer ASR, Khmer speech recognition, Khmer language, Khmer speech processing">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://khmerasr.github.io/blog/2015/06/13/khmer-phonemic-inventory">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Khmer ASR" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css">
+<!--- MathJax Configuration -->
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-63547467-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Khmer ASR</a></h1>
+  
+    <h2>Building speech recognition for Khmer language.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscribe" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS" target="_blank"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewbox="0 0 100 100"><path class="social" d="M 13.310204,73.332654 C 5.967347,73.332654 0,79.322448 0,86.621428 c 0,7.338776 5.967347,13.262246 13.310204,13.262246 7.370408,0 13.328572,-5.92245 13.328572,-13.262246 0,-7.29898 -5.958164,-13.288774 -13.328572,-13.288774 z M 0.01530612,33.978572 V 53.143878 C 12.493878,53.143878 24.229592,58.02347 33.068368,66.865306 41.894898,75.685714 46.767346,87.47449 46.767346,100 h 19.25 C 66.017346,63.592858 36.4,33.979592 0.01530612,33.978572 l 0,0 z M 0.03877552,0 V 19.17449 C 44.54796,19.17551 80.77551,55.437756 80.77551,100 H 100 C 100,44.87653 55.15102,0 0.03877552,0 z"></path></svg></a></li>
+  
+</ul>
+  
+  
+  
+  
+  
+<ul class="subscribe">
+  <li><a href="https://github.com/khmerasr" rel="subscribe-github" title="@khmerasr on GitHub" target="_blank"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewbox="0 0 100 100"><path class="social" d="M 50,0 C 22.385714,0 0,22.385714 0,50 0,77.614286 22.385714,100 50,100 77.614286,100 100,77.614286 100,50 100,22.385714 77.614286,0 50,0 z m 29.692858,79.692858 c -3.859184,3.859182 -8.351022,6.887754 -13.35,9.00306 -1.27041,0.536736 -2.560204,1.009184 -3.867348,1.415306 v -7.493878 c 0,-3.938774 -1.35102,-6.835714 -4.053062,-8.690816 1.692858,-0.163264 3.24694,-0.390816 4.663266,-0.683672 1.416326,-0.292858 2.913266,-0.716328 4.491838,-1.27041 1.57857,-0.55408 2.994896,-1.213264 4.247958,-1.97755 1.253062,-0.765306 2.458164,-1.758164 3.613266,-2.978572 1.155102,-1.220408 2.12449,-2.604082 2.905102,-4.15 0.780612,-1.545918 1.4,-3.40204 1.855102,-5.566326 0.455102,-2.164286 0.683674,-4.54898 0.683674,-7.153062 0,-5.045918 -1.643878,-9.341836 -4.931634,-12.890816 C 77.44796,33.35 77.285714,29.10204 75.463266,24.512244 l -1.22143,-0.145918 c -0.845918,-0.09796 -2.368366,0.260204 -4.565306,1.07449 -2.196938,0.814286 -4.663264,2.14796 -7.396938,4.004082 -3.87449,-1.07449 -7.893878,-1.611224 -12.061224,-1.611224 -4.19898,0 -8.203062,0.536734 -12.012246,1.611224 -1.72449,-1.17245 -3.361224,-2.139796 -4.907142,-2.905102 C 31.753062,25.77449 30.516326,25.254082 29.587756,24.97653 28.660204,24.7 27.79796,24.528572 27,24.463266 c -0.79796,-0.0653 -1.310204,-0.08062 -1.537756,-0.04898 -0.22755,0.03164 -0.390816,0.0653 -0.487754,0.09796 -1.82347,4.62245 -1.985714,8.87143 -0.487756,12.743878 -3.287754,3.54796 -4.931632,7.844898 -4.931632,12.890816 0,2.604082 0.227552,4.988776 0.683674,7.153062 0.456122,2.164286 1.07449,4.020408 1.855102,5.566326 0.780612,1.545918 1.75,2.929592 2.905102,4.15 1.155102,1.220408 2.360204,2.213266 3.613264,2.978572 1.253062,0.766326 2.669388,1.42449 4.24796,1.97755 1.578572,0.554082 3.07551,0.976532 4.491836,1.27041 1.416328,0.292856 2.970408,0.521428 4.663266,0.683672 -2.669388,1.82347 -4.004082,4.720408 -4.004082,8.690816 v 7.639796 C 36.536734,89.818368 35.083674,89.3 33.656122,88.695918 c -4.99898,-2.115306 -9.490816,-5.143878 -13.35,-9.00306 -3.859184,-3.859184 -6.887754,-8.351022 -9.00306,-13.35 C 9.1163263,61.171428 8.0071428,55.67347 8.0071428,50 c 0,-5.67347 1.1091835,-11.171428 3.2969392,-16.342858 2.115306,-4.998978 5.143878,-9.490816 9.00306,-13.35 3.859184,-3.859182 8.351022,-6.887754 13.35,-9.00306 C 38.828572,9.1163266 44.32653,8.0071428 50,8.0071428 c 5.67347,0 11.171428,1.1091838 16.342858,3.2969392 5,2.115306 9.490816,5.143878 13.35,9.00306 3.859182,3.859184 6.887754,8.351022 9.00306,13.35 2.186736,5.17245 3.295918,10.67041 3.295918,16.342858 0,5.672448 -1.109182,11.171428 -3.296938,16.342858 -2.115306,4.998978 -5.143878,9.490816 -9.00204,13.35 l 0,0 z"></path></svg></a></li>
+</ul>
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      <form action="https://www.google.com/search" method="get">
+        <fieldset role="search">
+          <input type="hidden" name="sitesearch" value="khmerasr.github.io" />
+    
+          <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+        </fieldset>
+      </form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/about.html">About</a><li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">Khmer Phonemic Inventory</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-06-13T18:15:57-04:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>6:15 pm</span></time>
+        
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>At high-level perception, automatic speech recognition is merely a computer application that could take 
+sound waves as input and produce the corresponding words, phrases, or sentences being spoken as text and indeed
+it is a transcription task which transforms verbal articulation into the written ones. Besides, 
+the rudimentary stage in the speech processing task is to deal with acoustic properties of the language
+to come up with the criterion for pronouncation so that transcription job can be made possible.</p>
+
+<p>Below section roughly described the acoustic features of Khmer language and provided the transcription 
+in IPA and Arpabet format to represent the Phonemes of each character.</p>
+
+<h3 id="khmer-alpabet-and-pronouncation">Khmer alpabet and pronouncation</h3>
+<p>In Cambodian script (called Khmer letters)​ there are 33 consonants, 24 dependent vowels, 
+12 independent vowels and several diacritic symbols. <!-- more -->Most consonants have reduced 
+or modified forms, called sub-consonants, when they occur as the second member of a consonant cluster. 
+Vowels may be written before, after, over, or under a consonant symbol. [1]</p>
+
+<h3 id="consonants">Consonants</h3>
+<p>Consonants can be devided into 2 series: one ɑ-series which inherit /ɑ/ sound and the other is 
+ɔ-series which inherit /ɔ/ sound. And the /ɑ/ or /ɔ/ sound comes from an abstruct (inherent) vowel 
+(the first of the 24 vowels). In addition, diacritics 
+<span style="color:red"> ៉ (MUUSIKATOAN)</span> and <span style="color:red"> ៊ (TRIISAP)</span> is used to 
+change a consonant sound to ɑ-series and ɔ-series respectively. [2]</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>ɑ-series</th>
+      <th>sub-script</th>
+      <th>ɔ-series</th>
+      <th>sub-script</th>
+      <th>sound (IPA)</th>
+      <th>Arpabet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ក</td>
+      <td>្ក</td>
+      <td>គ</td>
+      <td>្គ</td>
+      <td>k</td>
+      <td>K</td>
+    </tr>
+    <tr>
+      <td>ខ</td>
+      <td>្ខ</td>
+      <td>ឃ</td>
+      <td>្ឃ</td>
+      <td>k<sup>h</sup></td>
+      <td>KH</td>
+    </tr>
+    <tr>
+      <td>ង៉</td>
+      <td> </td>
+      <td>ង</td>
+      <td>្ង</td>
+      <td>ŋ</td>
+      <td>NG</td>
+    </tr>
+    <tr>
+      <td>ច</td>
+      <td>្ច</td>
+      <td>ជ</td>
+      <td>្ជ</td>
+      <td>c</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>ឆ</td>
+      <td>្ឆ</td>
+      <td>ឈ</td>
+      <td>្ឈ</td>
+      <td>c<sup>h</sup></td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <td>ញ៉</td>
+      <td> </td>
+      <td>ញ</td>
+      <td>្ញ</td>
+      <td>ɲ</td>
+      <td>GN</td>
+    </tr>
+    <tr>
+      <td>ដ</td>
+      <td>្ដ</td>
+      <td>ឌ</td>
+      <td>្ឌ</td>
+      <td>ɗ</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>ឋ, ថ</td>
+      <td>្ឋ,  ្ថ</td>
+      <td>ឍ, ធ</td>
+      <td>្ឍ,  ្ធ</td>
+      <td>t<sup>h</sup></td>
+      <td>TH</td>
+    </tr>
+    <tr>
+      <td>ណ</td>
+      <td>្ណ</td>
+      <td>ន</td>
+      <td>្ន</td>
+      <td>n</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>ត</td>
+      <td>្ត</td>
+      <td>ទ</td>
+      <td>្ទ</td>
+      <td>t</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>ប</td>
+      <td>្ប</td>
+      <td>ប៊</td>
+      <td> </td>
+      <td>ɓ</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>ផ</td>
+      <td>្ផ</td>
+      <td>ភ</td>
+      <td>្ភ</td>
+      <td>p<sup>h</sup></td>
+      <td>PH</td>
+    </tr>
+    <tr>
+      <td>ប៉</td>
+      <td> </td>
+      <td>ព</td>
+      <td>្ព</td>
+      <td>p</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>ម៉</td>
+      <td> </td>
+      <td>ម</td>
+      <td>្ម</td>
+      <td>m</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>យ៉</td>
+      <td> </td>
+      <td>យ</td>
+      <td>្យ</td>
+      <td>j</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <td>រ៉</td>
+      <td> </td>
+      <td>រ</td>
+      <td>្រ</td>
+      <td>r</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td>ឡ</td>
+      <td>្ឡ</td>
+      <td>ល</td>
+      <td>្ល</td>
+      <td>l</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>វ៉</td>
+      <td> </td>
+      <td>វ</td>
+      <td>្វ</td>
+      <td>w</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>ស</td>
+      <td>្ស</td>
+      <td>ស៊</td>
+      <td> </td>
+      <td>s</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td>ហ</td>
+      <td>្ហ</td>
+      <td>ហ៊</td>
+      <td> </td>
+      <td>h</td>
+      <td>HH</td>
+    </tr>
+    <tr>
+      <td>អ</td>
+      <td>្ឣ</td>
+      <td>ឣ៊</td>
+      <td> </td>
+      <td>ʔ</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dependent-vowels">Dependent Vowels</h3>
+<p>The pronounciation of a vowel, including the inherent vowel, is determinded by the series of 
+the initial consonant or consonant cluster that it follows. [2]</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Letter</th>
+      <th>ɑ-series</th>
+      <th>Arpabet</th>
+      <th>ɔ-series</th>
+      <th>Arpabet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Inherent vowel</td>
+      <td>ɑː</td>
+      <td>AA</td>
+      <td>ɔː</td>
+      <td>OA</td>
+    </tr>
+    <tr>
+      <td>ា</td>
+      <td>aː</td>
+      <td>AH</td>
+      <td>iːə</td>
+      <td>EA</td>
+    </tr>
+    <tr>
+      <td>ិ</td>
+      <td>e</td>
+      <td>EH</td>
+      <td>i</td>
+      <td>IH</td>
+    </tr>
+    <tr>
+      <td>ី</td>
+      <td>ej</td>
+      <td>EY</td>
+      <td>iː</td>
+      <td>IY</td>
+    </tr>
+    <tr>
+      <td>ឹ</td>
+      <td>ə</td>
+      <td>OE</td>
+      <td>ɨ</td>
+      <td>EO</td>
+    </tr>
+    <tr>
+      <td>ឺ</td>
+      <td>œː</td>
+      <td>ER</td>
+      <td>ɨː</td>
+      <td>EU</td>
+    </tr>
+    <tr>
+      <td>ុ</td>
+      <td>o</td>
+      <td>OH</td>
+      <td>u</td>
+      <td>UH</td>
+    </tr>
+    <tr>
+      <td>ូ</td>
+      <td>ɔːo</td>
+      <td>OW</td>
+      <td>uː</td>
+      <td>UW</td>
+    </tr>
+    <tr>
+      <td>ួ</td>
+      <td>uːə</td>
+      <td>UE</td>
+      <td>uːə</td>
+      <td>UE</td>
+    </tr>
+    <tr>
+      <td>ើ</td>
+      <td>aːə</td>
+      <td>AER</td>
+      <td>əː</td>
+      <td>EER</td>
+    </tr>
+    <tr>
+      <td>ឿ</td>
+      <td>ɨːə</td>
+      <td>EUR</td>
+      <td>ɨːə</td>
+      <td>EUR</td>
+    </tr>
+    <tr>
+      <td>ៀ</td>
+      <td>iːə</td>
+      <td>EA</td>
+      <td>iːə</td>
+      <td>EA</td>
+    </tr>
+    <tr>
+      <td>េ</td>
+      <td>eː</td>
+      <td>IE</td>
+      <td>eː</td>
+      <td>IE</td>
+    </tr>
+    <tr>
+      <td>ែ</td>
+      <td>aːɛ</td>
+      <td>AE</td>
+      <td>ɛː</td>
+      <td>AE</td>
+    </tr>
+    <tr>
+      <td>ៃ</td>
+      <td>aj</td>
+      <td>AY</td>
+      <td>ej</td>
+      <td>EY</td>
+    </tr>
+    <tr>
+      <td>ោ</td>
+      <td>aːo</td>
+      <td>AW</td>
+      <td>oː</td>
+      <td>OW</td>
+    </tr>
+    <tr>
+      <td>ៅ</td>
+      <td>aw</td>
+      <td>AOW</td>
+      <td>əw</td>
+      <td>AUW</td>
+    </tr>
+    <tr>
+      <td>ុំ</td>
+      <td>om</td>
+      <td>OUM</td>
+      <td>um</td>
+      <td>UM</td>
+    </tr>
+    <tr>
+      <td>ំ</td>
+      <td>ɑm</td>
+      <td>OM</td>
+      <td>um</td>
+      <td>UM</td>
+    </tr>
+    <tr>
+      <td>ាំ</td>
+      <td>am</td>
+      <td>AM</td>
+      <td>oam</td>
+      <td>AOM</td>
+    </tr>
+    <tr>
+      <td>ះ</td>
+      <td>ah</td>
+      <td>EHX</td>
+      <td>ɛah</td>
+      <td>AHX</td>
+    </tr>
+    <tr>
+      <td>ិះ</td>
+      <td>eh</td>
+      <td>EEH</td>
+      <td>ih</td>
+      <td>IH</td>
+    </tr>
+    <tr>
+      <td>ឹះ</td>
+      <td>əh</td>
+      <td>ERH</td>
+      <td>ɨh</td>
+      <td>EOH</td>
+    </tr>
+    <tr>
+      <td>ុះ</td>
+      <td>oh</td>
+      <td>OUH</td>
+      <td>uh</td>
+      <td>UUH</td>
+    </tr>
+    <tr>
+      <td>េះ</td>
+      <td>eh</td>
+      <td>OEH</td>
+      <td>ih</td>
+      <td>IYH</td>
+    </tr>
+    <tr>
+      <td>ោះ</td>
+      <td>ɑh</td>
+      <td>AOH</td>
+      <td>uəh</td>
+      <td>UEH</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="independent-vowels">Independent Vowels</h3>
+<p>Unlinke dependent vowels, independent vowels can be the initial letter of word and they can be 
+followed immediately by consonants but not dependent vowels.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Letter</th>
+      <th>IPA</th>
+      <th>Arpabet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ឣា</td>
+      <td>ʔaː</td>
+      <td>AH</td>
+    </tr>
+    <tr>
+      <td>ឥ</td>
+      <td>ʔe</td>
+      <td>EH</td>
+    </tr>
+    <tr>
+      <td>ឦ</td>
+      <td>ʔej</td>
+      <td>EY</td>
+    </tr>
+    <tr>
+      <td>ឧ</td>
+      <td>ʔu</td>
+      <td>UH</td>
+    </tr>
+    <tr>
+      <td>ឩ</td>
+      <td>ʔuː</td>
+      <td>UW</td>
+    </tr>
+    <tr>
+      <td>ឪ</td>
+      <td>ʔoːw</td>
+      <td>AUW</td>
+    </tr>
+    <tr>
+      <td>ឫ</td>
+      <td>ʔɨ</td>
+      <td>R EO</td>
+    </tr>
+    <tr>
+      <td>ឬ</td>
+      <td>ʔɨː</td>
+      <td>R EU</td>
+    </tr>
+    <tr>
+      <td>ឭ</td>
+      <td>lɨ</td>
+      <td>L EO</td>
+    </tr>
+    <tr>
+      <td>ឮ</td>
+      <td>lɨː</td>
+      <td>L EU</td>
+    </tr>
+    <tr>
+      <td>ឯ</td>
+      <td>ʔaːɛ</td>
+      <td>AE</td>
+    </tr>
+    <tr>
+      <td>ឰ</td>
+      <td>ʔaj</td>
+      <td>AY</td>
+    </tr>
+    <tr>
+      <td>ឱ</td>
+      <td>ʔaːo</td>
+      <td>AW</td>
+    </tr>
+    <tr>
+      <td>ឲ</td>
+      <td>ʔaːo</td>
+      <td>AW</td>
+    </tr>
+    <tr>
+      <td>ឳ</td>
+      <td>ʔaw</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>All the tables illustrated above are the extension of Text to sound mapping tables developed in [2].</p>
+
+<h3 id="references">References</h3>
+<ol>
+  <li><a href="http://www.seasite.niu.edu/khmer/">Center for Southeast Asia Studies (Khmer) - Northen Illinois University</a></li>
+  <li>T.R. Annanda, S.M. Long, S. Heng, N. Long, K.H. Sok, “Complexity of Letter to Sound Conversion (LTS) in Khmer Language: under the context of Khmer Text-to-Speech (TTS)”. NLP lab, Department of Computer and Communication Engineering, Institute of Technology of Cambodia, Cambodia, PAN10 and IDRC Canada</li>
+  <li><a href="http://www.panl10n.net/english/Outputs%20Phase%202/CCs/Cambodia/ITC/Papers/2007/0701/phonetic-and-phonological-analysis.pdf">Research on Phonetic and Phonological Analysis of Khmer</a></li>
+  <li><a href="http://www.omniglot.com/writing/khmer.htm">Omniglot - Khmer</a></li>
+  <li>S. Seng, S. Sam, V.-B. Le, B. Bigi, and L. Besacier, “WHICH UNITS FOR ACOUSTIC AND LANGUAGE MODELING FOR KHMER AUTOMATIC SPEECH RECOGNITION?” presented at the International Workshop on Spoken Languages Technologies for Under-Ressourced Languages, 2008.</li>
+</ol>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+
+
+  <span class="byline author vcard">Authored by <span class="fn">
+  
+    Chanmann Lim
+  
+  </span></span>
+
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-06-13T18:15:57-04:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>6:15 pm</span></time>
+      
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/acoustic/'>acoustic</a>, <a class='category' href='/blog/categories/phoneme/'>phoneme</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://khmerasr.github.io/blog/2015/06/13/khmer-phonemic-inventory/" data-via="" data-counturl="http://khmerasr.github.io/blog/2015/06/13/khmer-phonemic-inventory/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-layout="button_count" data-send="false" data-width="300" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/06/12/khmer-keywords-ipa-and-arpabet-transcription/" title="Previous Post: Khmer keywords IPA and Arpabet transcription">&laquo; Khmer keywords IPA and Arpabet transcription</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - KhmerASR -
+  <span class="credit"><!-- Powered by <a href="http://octopress.org">Octopress</a> | -->Themed with <a href="https://github.com/lucaslew/whitespace">Whitespace</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'khmerasr';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://khmerasr.github.io/blog/2015/06/13/khmer-phonemic-inventory/';
+        var disqus_url = 'http://khmerasr.github.io/blog/2015/06/13/khmer-phonemic-inventory/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

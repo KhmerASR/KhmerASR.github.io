@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Transcription | Khmer ASR]]></title>
   <link href="http://khmerasr.github.io/blog/categories/transcription/atom.xml" rel="self"/>
   <link href="http://khmerasr.github.io/"/>
-  <updated>2015-06-12T22:28:46-04:00</updated>
+  <updated>2015-06-13T18:24:26-04:00</updated>
   <id>http://khmerasr.github.io/</id>
   <author>
     <name><![CDATA[Chanmann Lim]]></name>
@@ -18,7 +18,7 @@
     <link href="http://khmerasr.github.io/blog/2015/06/12/khmer-keywords-ipa-and-arpabet-transcription/"/>
     <updated>2015-06-12T18:42:07-04:00</updated>
     <id>http://khmerasr.github.io/blog/2015/06/12/khmer-keywords-ipa-and-arpabet-transcription</id>
-    <content type="html"><![CDATA[<p>Unlike <a href="/blog/2015/05/29/khmer-keywords-transliteration">previous post</a> which considers only English transliteration as the transcription method for Khmer keywords, here I will use the <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"><strong>International Phonetic Alphabet (IPA)</strong></a> and <a href="https://en.wikipedia.org/wiki/Arpabet">Arpabet</a> notation for transcribing the same set of Khmer keywords from the last article.
+    <content type="html"><![CDATA[<p>Unlike <a href="">previous post</a> which considers only English transliteration as the transcription method for Khmer keywords, here I will use the <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"><strong>International Phonetic Alphabet (IPA)</strong></a> and <a href="https://en.wikipedia.org/wiki/Arpabet">Arpabet</a> notation for transcribing the same set of Khmer keywords from the last article.
 <!-- more --></p>
 
 <table>
@@ -1192,14 +1192,7 @@
   </tbody>
 </table>
 
-<h3 id="phonemic-inventory-references">Phonemic inventory references</h3>
-<ol>
-  <li><a href="http://www.omniglot.com/writing/khmer.htm">Omniglot - Khmer</a></li>
-  <li>Annanda th. Rath, Long S. Meng, Heng. Samedi, Long Nipaul, Sok K. heng. “Complexity of Letter to Sound Conversion (LTS) in Khmer Language: under the context of Khmer Text-to-Speech (TTS)”. NLP lab, Department of Computer and Communication Engineering, Institute of Technology of Cambodia, Cambodia, PAN10 and IDRC Canada</li>
-  <li><a href="http://www.panl10n.net/english/Outputs%20Phase%202/CCs/Cambodia/ITC/Papers/2007/0701/phonetic-and-phonological-analysis.pdf">Research on Phonetic and Phonological Analysis of Khmer</a></li>
-  <li><a href="http://www.seasite.niu.edu/khmer/">Center for Southeast Asia Studies (Khmer) - Northen Illinois University</a></li>
-  <li>S. Seng, S. Sam, V.-B. Le, B. Bigi, and L. Besacier, “WHICH UNITS FOR ACOUSTIC AND LANGUAGE MODELING FOR KHMER AUTOMATIC SPEECH RECOGNITION?” presented at the International Workshop on Spoken Languages Technologies for Under-Ressourced Languages, 2008.</li>
-</ol>
+<p>The transcription here is based on the <a href="">Phonemic inventory for Khmer language</a> being defined in this site.</p>
 ]]></content>
   </entry>
   

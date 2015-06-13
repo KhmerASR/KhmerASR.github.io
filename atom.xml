@@ -4,7 +4,7 @@
   <title><![CDATA[Khmer ASR]]></title>
   <link href="http://khmerasr.github.io/atom.xml" rel="self"/>
   <link href="http://khmerasr.github.io/"/>
-  <updated>2015-06-12T22:28:46-04:00</updated>
+  <updated>2015-06-13T18:24:26-04:00</updated>
   <id>http://khmerasr.github.io/</id>
   <author>
     <name><![CDATA[Chanmann Lim]]></name>
@@ -14,11 +14,525 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Khmer Phonemic Inventory]]></title>
+    <link href="http://khmerasr.github.io/blog/2015/06/13/khmer-phonemic-inventory/"/>
+    <updated>2015-06-13T18:15:57-04:00</updated>
+    <id>http://khmerasr.github.io/blog/2015/06/13/khmer-phonemic-inventory</id>
+    <content type="html"><![CDATA[<p>At high-level perception, automatic speech recognition is merely a computer application that could take 
+sound waves as input and produce the corresponding words, phrases, or sentences being spoken as text and indeed
+it is a transcription task which transforms verbal articulation into the written ones. Besides, 
+the rudimentary stage in the speech processing task is to deal with acoustic properties of the language
+to come up with the criterion for pronouncation so that transcription job can be made possible.</p>
+
+<p>Below section roughly described the acoustic features of Khmer language and provided the transcription 
+in IPA and Arpabet format to represent the Phonemes of each character.</p>
+
+<h3 id="khmer-alpabet-and-pronouncation">Khmer alpabet and pronouncation</h3>
+<p>In Cambodian script (called Khmer letters)​ there are 33 consonants, 24 dependent vowels, 
+12 independent vowels and several diacritic symbols. <!-- more -->Most consonants have reduced 
+or modified forms, called sub-consonants, when they occur as the second member of a consonant cluster. 
+Vowels may be written before, after, over, or under a consonant symbol. [1]</p>
+
+<h3 id="consonants">Consonants</h3>
+<p>Consonants can be devided into 2 series: one ɑ-series which inherit /ɑ/ sound and the other is 
+ɔ-series which inherit /ɔ/ sound. And the /ɑ/ or /ɔ/ sound comes from an abstruct (inherent) vowel 
+(the first of the 24 vowels). In addition, diacritics 
+<span style="color:red"> ៉ (MUUSIKATOAN)</span> and <span style="color:red"> ៊ (TRIISAP)</span> is used to 
+change a consonant sound to ɑ-series and ɔ-series respectively. [2]</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>ɑ-series</th>
+      <th>sub-script</th>
+      <th>ɔ-series</th>
+      <th>sub-script</th>
+      <th>sound (IPA)</th>
+      <th>Arpabet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ក</td>
+      <td>្ក</td>
+      <td>គ</td>
+      <td>្គ</td>
+      <td>k</td>
+      <td>K</td>
+    </tr>
+    <tr>
+      <td>ខ</td>
+      <td>្ខ</td>
+      <td>ឃ</td>
+      <td>្ឃ</td>
+      <td>k<sup>h</sup></td>
+      <td>KH</td>
+    </tr>
+    <tr>
+      <td>ង៉</td>
+      <td> </td>
+      <td>ង</td>
+      <td>្ង</td>
+      <td>ŋ</td>
+      <td>NG</td>
+    </tr>
+    <tr>
+      <td>ច</td>
+      <td>្ច</td>
+      <td>ជ</td>
+      <td>្ជ</td>
+      <td>c</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>ឆ</td>
+      <td>្ឆ</td>
+      <td>ឈ</td>
+      <td>្ឈ</td>
+      <td>c<sup>h</sup></td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <td>ញ៉</td>
+      <td> </td>
+      <td>ញ</td>
+      <td>្ញ</td>
+      <td>ɲ</td>
+      <td>GN</td>
+    </tr>
+    <tr>
+      <td>ដ</td>
+      <td>្ដ</td>
+      <td>ឌ</td>
+      <td>្ឌ</td>
+      <td>ɗ</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>ឋ, ថ</td>
+      <td>្ឋ,  ្ថ</td>
+      <td>ឍ, ធ</td>
+      <td>្ឍ,  ្ធ</td>
+      <td>t<sup>h</sup></td>
+      <td>TH</td>
+    </tr>
+    <tr>
+      <td>ណ</td>
+      <td>្ណ</td>
+      <td>ន</td>
+      <td>្ន</td>
+      <td>n</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>ត</td>
+      <td>្ត</td>
+      <td>ទ</td>
+      <td>្ទ</td>
+      <td>t</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>ប</td>
+      <td>្ប</td>
+      <td>ប៊</td>
+      <td> </td>
+      <td>ɓ</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>ផ</td>
+      <td>្ផ</td>
+      <td>ភ</td>
+      <td>្ភ</td>
+      <td>p<sup>h</sup></td>
+      <td>PH</td>
+    </tr>
+    <tr>
+      <td>ប៉</td>
+      <td> </td>
+      <td>ព</td>
+      <td>្ព</td>
+      <td>p</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>ម៉</td>
+      <td> </td>
+      <td>ម</td>
+      <td>្ម</td>
+      <td>m</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>យ៉</td>
+      <td> </td>
+      <td>យ</td>
+      <td>្យ</td>
+      <td>j</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <td>រ៉</td>
+      <td> </td>
+      <td>រ</td>
+      <td>្រ</td>
+      <td>r</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td>ឡ</td>
+      <td>្ឡ</td>
+      <td>ល</td>
+      <td>្ល</td>
+      <td>l</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>វ៉</td>
+      <td> </td>
+      <td>វ</td>
+      <td>្វ</td>
+      <td>w</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>ស</td>
+      <td>្ស</td>
+      <td>ស៊</td>
+      <td> </td>
+      <td>s</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td>ហ</td>
+      <td>្ហ</td>
+      <td>ហ៊</td>
+      <td> </td>
+      <td>h</td>
+      <td>HH</td>
+    </tr>
+    <tr>
+      <td>អ</td>
+      <td>្ឣ</td>
+      <td>ឣ៊</td>
+      <td> </td>
+      <td>ʔ</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dependent-vowels">Dependent Vowels</h3>
+<p>The pronounciation of a vowel, including the inherent vowel, is determinded by the series of 
+the initial consonant or consonant cluster that it follows. [2]</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Letter</th>
+      <th>ɑ-series</th>
+      <th>Arpabet</th>
+      <th>ɔ-series</th>
+      <th>Arpabet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Inherent vowel</td>
+      <td>ɑː</td>
+      <td>AA</td>
+      <td>ɔː</td>
+      <td>OA</td>
+    </tr>
+    <tr>
+      <td>ា</td>
+      <td>aː</td>
+      <td>AH</td>
+      <td>iːə</td>
+      <td>EA</td>
+    </tr>
+    <tr>
+      <td>ិ</td>
+      <td>e</td>
+      <td>EH</td>
+      <td>i</td>
+      <td>IH</td>
+    </tr>
+    <tr>
+      <td>ី</td>
+      <td>ej</td>
+      <td>EY</td>
+      <td>iː</td>
+      <td>IY</td>
+    </tr>
+    <tr>
+      <td>ឹ</td>
+      <td>ə</td>
+      <td>OE</td>
+      <td>ɨ</td>
+      <td>EO</td>
+    </tr>
+    <tr>
+      <td>ឺ</td>
+      <td>œː</td>
+      <td>ER</td>
+      <td>ɨː</td>
+      <td>EU</td>
+    </tr>
+    <tr>
+      <td>ុ</td>
+      <td>o</td>
+      <td>OH</td>
+      <td>u</td>
+      <td>UH</td>
+    </tr>
+    <tr>
+      <td>ូ</td>
+      <td>ɔːo</td>
+      <td>OW</td>
+      <td>uː</td>
+      <td>UW</td>
+    </tr>
+    <tr>
+      <td>ួ</td>
+      <td>uːə</td>
+      <td>UE</td>
+      <td>uːə</td>
+      <td>UE</td>
+    </tr>
+    <tr>
+      <td>ើ</td>
+      <td>aːə</td>
+      <td>AER</td>
+      <td>əː</td>
+      <td>EER</td>
+    </tr>
+    <tr>
+      <td>ឿ</td>
+      <td>ɨːə</td>
+      <td>EUR</td>
+      <td>ɨːə</td>
+      <td>EUR</td>
+    </tr>
+    <tr>
+      <td>ៀ</td>
+      <td>iːə</td>
+      <td>EA</td>
+      <td>iːə</td>
+      <td>EA</td>
+    </tr>
+    <tr>
+      <td>េ</td>
+      <td>eː</td>
+      <td>IE</td>
+      <td>eː</td>
+      <td>IE</td>
+    </tr>
+    <tr>
+      <td>ែ</td>
+      <td>aːɛ</td>
+      <td>AE</td>
+      <td>ɛː</td>
+      <td>AE</td>
+    </tr>
+    <tr>
+      <td>ៃ</td>
+      <td>aj</td>
+      <td>AY</td>
+      <td>ej</td>
+      <td>EY</td>
+    </tr>
+    <tr>
+      <td>ោ</td>
+      <td>aːo</td>
+      <td>AW</td>
+      <td>oː</td>
+      <td>OW</td>
+    </tr>
+    <tr>
+      <td>ៅ</td>
+      <td>aw</td>
+      <td>AOW</td>
+      <td>əw</td>
+      <td>AUW</td>
+    </tr>
+    <tr>
+      <td>ុំ</td>
+      <td>om</td>
+      <td>OUM</td>
+      <td>um</td>
+      <td>UM</td>
+    </tr>
+    <tr>
+      <td>ំ</td>
+      <td>ɑm</td>
+      <td>OM</td>
+      <td>um</td>
+      <td>UM</td>
+    </tr>
+    <tr>
+      <td>ាំ</td>
+      <td>am</td>
+      <td>AM</td>
+      <td>oam</td>
+      <td>AOM</td>
+    </tr>
+    <tr>
+      <td>ះ</td>
+      <td>ah</td>
+      <td>EHX</td>
+      <td>ɛah</td>
+      <td>AHX</td>
+    </tr>
+    <tr>
+      <td>ិះ</td>
+      <td>eh</td>
+      <td>EEH</td>
+      <td>ih</td>
+      <td>IH</td>
+    </tr>
+    <tr>
+      <td>ឹះ</td>
+      <td>əh</td>
+      <td>ERH</td>
+      <td>ɨh</td>
+      <td>EOH</td>
+    </tr>
+    <tr>
+      <td>ុះ</td>
+      <td>oh</td>
+      <td>OUH</td>
+      <td>uh</td>
+      <td>UUH</td>
+    </tr>
+    <tr>
+      <td>េះ</td>
+      <td>eh</td>
+      <td>OEH</td>
+      <td>ih</td>
+      <td>IYH</td>
+    </tr>
+    <tr>
+      <td>ោះ</td>
+      <td>ɑh</td>
+      <td>AOH</td>
+      <td>uəh</td>
+      <td>UEH</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="independent-vowels">Independent Vowels</h3>
+<p>Unlinke dependent vowels, independent vowels can be the initial letter of word and they can be 
+followed immediately by consonants but not dependent vowels.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Letter</th>
+      <th>IPA</th>
+      <th>Arpabet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ឣា</td>
+      <td>ʔaː</td>
+      <td>AH</td>
+    </tr>
+    <tr>
+      <td>ឥ</td>
+      <td>ʔe</td>
+      <td>EH</td>
+    </tr>
+    <tr>
+      <td>ឦ</td>
+      <td>ʔej</td>
+      <td>EY</td>
+    </tr>
+    <tr>
+      <td>ឧ</td>
+      <td>ʔu</td>
+      <td>UH</td>
+    </tr>
+    <tr>
+      <td>ឩ</td>
+      <td>ʔuː</td>
+      <td>UW</td>
+    </tr>
+    <tr>
+      <td>ឪ</td>
+      <td>ʔoːw</td>
+      <td>AUW</td>
+    </tr>
+    <tr>
+      <td>ឫ</td>
+      <td>ʔɨ</td>
+      <td>R EO</td>
+    </tr>
+    <tr>
+      <td>ឬ</td>
+      <td>ʔɨː</td>
+      <td>R EU</td>
+    </tr>
+    <tr>
+      <td>ឭ</td>
+      <td>lɨ</td>
+      <td>L EO</td>
+    </tr>
+    <tr>
+      <td>ឮ</td>
+      <td>lɨː</td>
+      <td>L EU</td>
+    </tr>
+    <tr>
+      <td>ឯ</td>
+      <td>ʔaːɛ</td>
+      <td>AE</td>
+    </tr>
+    <tr>
+      <td>ឰ</td>
+      <td>ʔaj</td>
+      <td>AY</td>
+    </tr>
+    <tr>
+      <td>ឱ</td>
+      <td>ʔaːo</td>
+      <td>AW</td>
+    </tr>
+    <tr>
+      <td>ឲ</td>
+      <td>ʔaːo</td>
+      <td>AW</td>
+    </tr>
+    <tr>
+      <td>ឳ</td>
+      <td>ʔaw</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>All the tables illustrated above are the extension of Text to sound mapping tables developed in [2].</p>
+
+<h3 id="references">References</h3>
+<ol>
+  <li><a href="http://www.seasite.niu.edu/khmer/">Center for Southeast Asia Studies (Khmer) - Northen Illinois University</a></li>
+  <li>T.R. Annanda, S.M. Long, S. Heng, N. Long, K.H. Sok, “Complexity of Letter to Sound Conversion (LTS) in Khmer Language: under the context of Khmer Text-to-Speech (TTS)”. NLP lab, Department of Computer and Communication Engineering, Institute of Technology of Cambodia, Cambodia, PAN10 and IDRC Canada</li>
+  <li><a href="http://www.panl10n.net/english/Outputs%20Phase%202/CCs/Cambodia/ITC/Papers/2007/0701/phonetic-and-phonological-analysis.pdf">Research on Phonetic and Phonological Analysis of Khmer</a></li>
+  <li><a href="http://www.omniglot.com/writing/khmer.htm">Omniglot - Khmer</a></li>
+  <li>S. Seng, S. Sam, V.-B. Le, B. Bigi, and L. Besacier, “WHICH UNITS FOR ACOUSTIC AND LANGUAGE MODELING FOR KHMER AUTOMATIC SPEECH RECOGNITION?” presented at the International Workshop on Spoken Languages Technologies for Under-Ressourced Languages, 2008.</li>
+</ol>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Khmer Keywords IPA and Arpabet Transcription]]></title>
     <link href="http://khmerasr.github.io/blog/2015/06/12/khmer-keywords-ipa-and-arpabet-transcription/"/>
     <updated>2015-06-12T18:42:07-04:00</updated>
     <id>http://khmerasr.github.io/blog/2015/06/12/khmer-keywords-ipa-and-arpabet-transcription</id>
-    <content type="html"><![CDATA[<p>Unlike <a href="http://khmerasr.github.io/blog/2015/05/29/khmer-keywords-transliteration">previous post</a> which considers only English transliteration as the transcription method for Khmer keywords, here I will use the <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"><strong>International Phonetic Alphabet (IPA)</strong></a> and <a href="https://en.wikipedia.org/wiki/Arpabet">Arpabet</a> notation for transcribing the same set of Khmer keywords from the last article.
+    <content type="html"><![CDATA[<p>Unlike <a href="http://khmerasr.github.io/blog/2015/05/29/khmer-keywords-transliteration/">previous post</a> which considers only English transliteration as the transcription method for Khmer keywords, here I will use the <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"><strong>International Phonetic Alphabet (IPA)</strong></a> and <a href="https://en.wikipedia.org/wiki/Arpabet">Arpabet</a> notation for transcribing the same set of Khmer keywords from the last article.
 <!-- more --></p>
 
 <table>
@@ -1192,14 +1706,7 @@
   </tbody>
 </table>
 
-<h3 id="phonemic-inventory-references">Phonemic inventory references</h3>
-<ol>
-  <li><a href="http://www.omniglot.com/writing/khmer.htm">Omniglot - Khmer</a></li>
-  <li>Annanda th. Rath, Long S. Meng, Heng. Samedi, Long Nipaul, Sok K. heng. “Complexity of Letter to Sound Conversion (LTS) in Khmer Language: under the context of Khmer Text-to-Speech (TTS)”. NLP lab, Department of Computer and Communication Engineering, Institute of Technology of Cambodia, Cambodia, PAN10 and IDRC Canada</li>
-  <li><a href="http://www.panl10n.net/english/Outputs%20Phase%202/CCs/Cambodia/ITC/Papers/2007/0701/phonetic-and-phonological-analysis.pdf">Research on Phonetic and Phonological Analysis of Khmer</a></li>
-  <li><a href="http://www.seasite.niu.edu/khmer/">Center for Southeast Asia Studies (Khmer) - Northen Illinois University</a></li>
-  <li>S. Seng, S. Sam, V.-B. Le, B. Bigi, and L. Besacier, “WHICH UNITS FOR ACOUSTIC AND LANGUAGE MODELING FOR KHMER AUTOMATIC SPEECH RECOGNITION?” presented at the International Workshop on Spoken Languages Technologies for Under-Ressourced Languages, 2008.</li>
-</ol>
+<p>The transcription here is based on the <a href="http://khmerasr.github.io/blog/2015/06/13/khmer-phonemic-inventory/">Phonemic inventory for Khmer language</a> being defined in this site.</p>
 ]]></content>
   </entry>
   
